@@ -149,8 +149,10 @@
 \newcounter{customsection}
 \newcommand{\mysection}[1]{
     \refstepcounter{customsection}
-    \noindent\textbf{Apendix \arabic{customsection}: #1}
+    \addcontentsline{toc}{section}{Appendix \arabic{customsection}: #1} % Добавляет запись в содержание
+    \noindent\textbf{Appendix \arabic{customsection}: #1}
 }
+
 
 
 \numberwithin{equation}{section}

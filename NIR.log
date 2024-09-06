@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  6 SEP 2024 19:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  6 SEP 2024 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1209,26 +1209,26 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./NIR.aux (./dat/intro.aux) (./dat/sieve_data.aux) (./dat/theory.aux) (./dat/bib.aux))
 \openout1 = `NIR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count479
@@ -1249,7 +1249,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package tikz-feynhand Warning: Consider loading TikZ-Feynhand with \usepackage[compat=1.1.0]{tikz-feynhand} so that you can be warned if TikZ-Feynhand changes. on input line 159.
+Package tikz-feynhand Warning: Consider loading TikZ-Feynhand with \usepackage[compat=1.1.0]{tikz-feynhand} so that you can be warned if TikZ-Feynhand changes. on input line 161.
 
 Package biblatex Info: Trying to load language 'russian' -> 'russian-gost'...
 Package biblatex Info: ... file 'russian-gost.lbx' found.
@@ -1287,9 +1287,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'NIR.bbl' found.
  (./NIR.bbl)
-Package biblatex Info: Reference section=0 on input line 159.
-Package biblatex Info: Reference segment=0 on input line 159.
-Package hyperref Info: Link coloring ON on input line 159.
+Package biblatex Info: Reference section=0 on input line 161.
+Package biblatex Info: Reference segment=0 on input line 161.
+Package hyperref Info: Link coloring ON on input line 161.
  (./NIR.out) (./NIR.out)
 \@outlinefile=\write5
 \openout5 = `NIR.out'.
@@ -1297,11 +1297,11 @@ Package hyperref Info: Link coloring ON on input line 159.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \th on input line 159.
+LaTeX Info: Redefining \th on input line 161.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 159.
+ on input line 161.
 
 (./NIR.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
@@ -1375,7 +1375,7 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `NIR.out' has not changed.
-(rerunfilecheck)             Checksum: 61DAC7B14A47F90F1295CDCB091AA75D;711.
+(rerunfilecheck)             Checksum: 4931444CC34FBD36AF2B6E6FC7C9AF8D;1050.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                NIR
@@ -1386,18 +1386,18 @@ Package logreq Info: Writing requests to 'NIR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49303 strings out of 476034
- 1111385 string characters out of 5792854
- 2180099 words of memory out of 6000000
- 68960 multiletter control sequences out of 15000+600000
+ 49304 strings out of 476034
+ 1111402 string characters out of 5792854
+ 2180146 words of memory out of 6000000
+ 68961 multiletter control sequences out of 15000+600000
  526437 words of font info for 69 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  116i,8n,118p,1510b,3089s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on NIR.pdf (5 pages, 209432 bytes).
+Output written on NIR.pdf (5 pages, 209907 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 156 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
