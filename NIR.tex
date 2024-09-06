@@ -1,0 +1,179 @@
+\documentclass[a4paper]{article}
+
+%Пакеты для математических символов:
+
+\usepackage{amsmath} % американское математическое сообщество.
+\usepackage{amssymb} % миллион разных значков и готический, ажурный шрифты.
+\usepackage{amscd} % диаграммы, графики.
+\usepackage{amsthm} % окружения теорем, определений и тд.
+\usepackage{physics} % основные физические символы
+\usepackage{tikz-feynhand} % Ферми диограммы
+%\usepackage{latexsym} % треугольники и пьяная стрелка.
+
+%пакеты для шрифтов:
+%\usepackage{euscript} % прописной шрифт с завитушками.
+\usepackage{MnSymbol} % Значеки доказательства
+\usepackage{verbatim} % улучшенный шрифт "пишущей машинки".
+\usepackage{array} % более удобные таблицы.
+%\usepackage{multirow} % мультистолбцы в таблицах.
+%\usepackage{longtable} % таблицы на несколько страниц.
+%\usepackage{latexsym}
+\usepackage{collectbox} % Добавляет коробочки, можно складывать туда текст)
+
+\usepackage[backend=biber, style=gost-numeric]{biblatex} % Литература по госту
+
+
+\usepackage{hyperref} % Ссылки как внешние так и внутренние
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+    
+%Пакеты для оформления:
+\RequirePackage[center, medium]{titlesec}% Стиль секций и заголовков
+%\usepackage[x11names]{xcolor} % 317 новых цветов для текста.
+\usepackage{float} % Позволяет использовать H, h! для локации фигур
+%\usepackage{multicol} % набор текста в несколько колонн.
+\usepackage{graphicx} % расширенные возможности вставки стандартных картинок.
+\usepackage{subcaption} % возможность вставлять картинки в строчку
+%\usepackage{caption} % возможность подавить нумерацию у caption.
+\usepackage{wrapfig} % вставка картинок и таблиц, обтекаемых текстом.
+\usepackage{cancel} % значки для сокращения дробей, упрощения, стремления.
+\usepackage{misccorr} % в заголовках появляется точка, но при ссылке на них ее нет.
+\usepackage{indentfirst} % отступ у первой строки раздела
+%\usepackage{showkeys} % показывает label формул над их номером.
+%\usepackage{fancyhdr} % удобное создание верхних и нижних колонтитулов.
+%\usepackage{titlesec} % еще одно создание верхних и нижних колонтитулов
+\usepackage{hyperref} % Ссылки как внешние так и внутренние
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{xcolor} %Позволяет перекрасить все страници
+\definecolor{mycolor}{RGB}{244,228,215} %Цвет перекраски
+
+
+%Пакеты шрифтов, кодировок. НЕ МЕНЯТЬ РАСПОЛОЖЕНИЕ.
+\usepackage[utf8]{inputenc} % кодировка символов.
+%\usepackage{mathtext} % позволяет использовать русские буквы в формулах. НЕСОВМЕСТИМО С tempora.
+\usepackage[T1, T2A]{fontenc} % кодировка шрифта.
+\usepackage[english, russian]{babel} % доступные языки.
+
+%tikz:
+\usepackage{tikz} % tikz
+\usetikzlibrary{decorations.text} % позволяет делать текст вдоль кривой.
+\usetikzlibrary{external} % позволяет кэшировать рисунки tikz.
+
+
+\usepackage{pgfplotstable}
+
+%Отступы и поля:
+%размеры страницы А4 11.7x8.3in
+\textwidth=7.3in % ширина текста
+\textheight=10in % высота текста
+\oddsidemargin=-0.5in % левый отступ(базовый 1дюйм + значение)
+\topmargin=-0.5in % отступ сверху до колонтитула(базовый 1дюйм + значение)
+
+
+%Сокращения
+%Скобочки
+\newcommand{\inrad}[1]{\left( #1 \right)}
+\newcommand{\inner}[1]{\left( #1 \right)}
+\newcommand{\infig}[1]{\left\{ #1 \right\}}
+\newcommand{\insqr}[1]{\left[ #1 \right]}
+\newcommand{\ave}[1]{\left\langle #1 \right\rangle}
+
+
+
+%% Красивые <= и >=
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\leq}{\leqslant}
+
+%%Значек выполнятся
+\newcommand{\per}{\hookrightarrow}
+
+%%Векторная алгебра
+\newcommand{\rot}{\text{rot}}
+\renewcommand{\div}{\text{div}}
+\renewcommand{\grad}{\text{grad}}
+
+%% Более привычные греческие буквы
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\com}{\mathbb{C}}
+\newcommand{\re}{\mathbb{R}}
+\newcommand{\nat}{\mathbb{N}}
+\newcommand{\stp}{$\filledmedtriangleleft$}
+\newcommand{\enp}{$\filledmedsquare$}
+
+%%Тензорный анализ ОТО теория поля
+\newcommand{\Li}[1]{\mathfrak{L}_{#1}}
+\newcommand{\crist}[3]{\cfrac{1}{2} \inner{g_{#1#2,#3} + g_{#1#3,#2} - g_{#2#3,#1}}}
+\newcommand{\piv}[2]{\cfrac{\partial #1}{\partial #2}}
+
+
+\newcommand{\redd}[1]{\textcolor{red}{#1}}
+
+\makeatletter
+\newcommand{\sqbox}{%
+    \collectbox{%
+        \@tempdima=\dimexpr\width-\totalheight\relax
+        \ifdim\@tempdima<\z@
+            \fbox{\hbox{\hspace{-.5\@tempdima}\BOXCONTENT\hspace{-.5\@tempdima}}}%
+        \else
+            \ht\collectedbox=\dimexpr\ht\collectedbox+.5\@tempdima\relax
+            \dp\collectedbox=\dimexpr\dp\collectedbox+.5\@tempdima\relax
+            \fbox{\BOXCONTENT}%
+        \fi
+    }%
+}
+\makeatother
+\newcommand{\mergelines}[2]{
+\begin{tabular}{llp{.5\textwidth}}
+#1 \\ #2
+\end{tabular}
+}
+\newcommand\tab[1][0.51cm]{\hspace*{#1}}
+\newcommand\difh[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\messageforpeople}[1]{HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics }
+
+\newcounter{customsection}
+\newcommand{\mysection}[1]{
+    \refstepcounter{customsection}
+    \noindent\textbf{Apendix \arabic{customsection}: #1}
+}
+
+
+\numberwithin{equation}{section}
+
+
+\begin{document}
+
+\newpage
+\tableofcontents
+\newpagestyle{main}{
+\setfootrule{0.4pt}
+\setfoot{}{\thepage}{\sectiontitle }}
+\pagestyle{main}
+
+
+\include{dat/intro}
+
+\include{dat/sieve_data}
+
+\include{dat/theory}
+
+\include{dat/bib}
+
+
+
+\end{document}

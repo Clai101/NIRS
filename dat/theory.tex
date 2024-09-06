@@ -1,0 +1,68 @@
+\mysection{Метод вычисления формфактора}
+
+$\Lambda_c$ барион состит из $ucd$ кварков, в ходе распараспада 
+$\Lambda_c \rightarrow \Lambda l \nu_l$ проискходит переход $c\to s$ 
+посредством испускания $W^+$ бозона тоесть правиьно будет записвть $c\to s W^+$,
+$W^+$ распадается на $W^+ \to l^+ \nu_l$, в итоге оставшиеся кварки 
+$uds$ формируются в $\Lambda$ барион. Таким образом получим следующую 
+феймановскую диаграмму.
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}
+        \begin{feynhand}
+            \vertex [particle] (i1) at (-3,4) {$u$};
+            \vertex [particle] (i2) at (-3,3.5) {$d$};
+            \vertex [particle] (i3) at (-3,3) {$c$};
+            \vertex [particle] (f1) at (3,4) {$u$};
+            \vertex [particle] (f2) at (3,3.5) {$d$};
+            \vertex [particle] (f3) at (3,3) {$s$};
+            \vertex (w1) at (0,3);
+            \vertex (w2) at (0,2.5);
+            \vertex (w3) at (0,2);
+            \vertex (w4) at (1.5,1);
+            \vertex [particle] (e) at (3,1.5) {$l^{-}$};
+            \vertex [particle] (an) at (3,0.5) {$\bar{\nu}_{l}$};
+            \propag [fermion] (i1) to (w1);
+            \propag [fermion] (i2) to (w2);
+            \propag [fermion] (i3) to (w3);
+            \propag [fermion] (w1) to (f1);
+            \propag [fermion] (w2) to (f2);
+            \propag [fermion] (w3) to (f3);
+            \propag [charged boson] (w3) to [edge label=$W^{-}$] (w4);
+            \propag [fermion] (w4) to (e);
+            \propag [anti fermion] (w4) to (an);        
+        \end{feynhand}
+    \end{tikzpicture}
+\end{figure}
+
+Переход $\Lambda_c \to \Lambda$ индуцирется слабым током $j_\mu$, 
+котрый можно разложить по аксиальной и векторной части: 
+$j_\mu = j_\mu^A + j_\mu^V$.
+Обозначим волновые функции частиц
+$B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}} 
+\to B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}} 
++ l\inner{p_l, m_l} + \nu_l \inner{p_\nu, m = 0}$. 
+Форм факторы выражаются как:
+\begin{equation}
+    \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
+    j_\nu^V
+    \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} = 
+    u_2^\dag \inner{\mathfrak F^V_1 \inner{q^2} \gamma_\nu + 
+    \cfrac{\mathfrak F^V_2}{M_{\Lambda_c}} \inner{q^2} \sigma_{\mu\nu} q^\nu + 
+    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} u_1 
+\end{equation}
+
+\begin{equation}
+    \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
+    j_\nu^A
+    \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} = 
+    u_2^\dag \inner{\mathfrak F^A_1 \inner{q^2} \gamma_\nu + 
+    \cfrac{\mathfrak F^A_2}{M_{\Lambda_c}} \inner{q^2} \sigma_{\mu\nu} q^\nu + 
+    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} \gamma_5 u_1 
+\end{equation}
+
+Где $\gamma_\mu$ - матрци Диррака, $q_\mu$ - 4-импульс $W^+$ бозона,
+$\sigma_{\mu\nu} = \cfrac{1}{2} \inner{\gamma_\mu \gamma_\nu - \gamma_\nu \gamma_\mu}$.
+
+\redd{Дописать вывод связи форм фактора и спиральности}

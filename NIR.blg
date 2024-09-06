@@ -1,0 +1,4 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'NIR.blg'
+[169] biber:340> INFO - === Fri Sep  6, 2024, 19:53:52
+[206] Biber.pm:419> INFO - Reading 'NIR.bcf'
