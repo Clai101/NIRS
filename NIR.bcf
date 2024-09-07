@@ -3517,6 +3517,8 @@
     <bcf:citekey order="5" intorder="1">CLEO2023</bcf:citekey>
     <bcf:citekey order="6" intorder="1">PDGTablesBar</bcf:citekey>
     <bcf:citekey order="7" intorder="1">PDGTablesMes</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">BelleDetector2002</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">BelleDetector2002</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
