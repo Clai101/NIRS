@@ -3515,10 +3515,15 @@
     <bcf:citekey order="3" intorder="1">CLEO2022</bcf:citekey>
     <bcf:citekey order="4" intorder="1">CLEO2023</bcf:citekey>
     <bcf:citekey order="5" intorder="1">CLEO2023</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">PDGTablesBar</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">PDGTablesMes</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">BelleDetector2002</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">BelleDetector2002</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">QCD2021</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">BagModel1989</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">RQM2016</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">QSR2009</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">LFCQM2018</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">PDGTablesBar</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">PDGTablesMes</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">BelleDetector2002</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">BelleDetector2002</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

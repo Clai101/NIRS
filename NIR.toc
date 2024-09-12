@@ -2,8 +2,12 @@
 \contentsline {section}{\numberline {1}Введение}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Мотивация}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Отличие от работы CLEO}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Сбор данных}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Тагирование $\Lambda _c$}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Критерии отбора}{3}{subsection.2.2}%
-\contentsline {section}{Appendix 1: Метод вычисления формфактора}{5}{customsection.1}%
-\contentsline {section}{\numberline {3}Литература}{6}{section.3}%
+\contentsline {subsection}{\numberline {1.3}Модели и теоретические предсказания}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Экспериментальная установка}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Коллайдер KEK}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Детектор Belle}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Сбор данных}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Тагирование $\Lambda _c$}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Критерии отбора}{5}{subsection.3.2}%
+\contentsline {section}{Appendix 1: Метод вычисления формфактора}{7}{customsection.1}%
+\contentsline {section}{\numberline {4}Литература}{8}{section.4}%

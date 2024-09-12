@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  8 SEP 2024 02:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  12 SEP 2024 09:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,7 +1206,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count477
 \@quotereset=\count478
-(./NIR.aux (./dat/intro.aux) (./dat/sieve_data.aux) (./dat/theory.aux) (./dat/bib.aux))
+(./NIR.aux (./dat/intro.aux) (./dat/belle.aux) (./dat/sieve_data.aux) (./dat/theory.aux) (./dat/bib.aux))
 \openout1 = `NIR.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
@@ -1343,9 +1343,47 @@ LaTeX Warning: Citation 'CLEO2023' on page 2 undefined on input line 13.
 
 LaTeX Warning: Citation 'CLEO2023' on page 2 undefined on input line 21.
 
+LaTeX Font Info:    Trying to load font information for U+euf on input line 40.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+
+LaTeX Warning: Citation 'QCD2021' on page 2 undefined on input line 42.
+
+
+LaTeX Warning: Citation 'BagModel1989' on page 2 undefined on input line 44.
+
+
+LaTeX Warning: Citation 'RQM2016' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation 'QSR2009' on page 2 undefined on input line 48.
+
+
+LaTeX Warning: Citation 'LFCQM2018' on page 2 undefined on input line 50.
+
 ) [2
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}]
+\openout2 = `dat/belle.aux'.
+
+ (./dat/belle.tex
+<img/kekb.png, id=92, 853.1875pt x 1260.71pt>
+File: img/kekb.png Graphic file (type png)
+<use img/kekb.png>
+Package pdftex.def Info: img/kekb.png  used on input line 21.
+(pdftex.def)             Requested size: 263.7856pt x 389.77728pt.
+ [3
+
+
+
+ <./img/kekb.png>]
+<img/the_belle.png, id=101, 931.48pt x 620.3175pt>
+File: img/the_belle.png Graphic file (type png)
+<use img/the_belle.png>
+Package pdftex.def Info: img/the_belle.png  used on input line 44.
+(pdftex.def)             Requested size: 422.05858pt x 281.07121pt.
+) [4 <./img/the_belle.png>]
 \openout2 = `dat/sieve_data.aux'.
 
  (./dat/sieve_data.tex
@@ -1365,31 +1403,27 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-LaTeX Font Info:    Trying to load font information for U+euf on input line 29.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
 
-LaTeX Warning: Citation 'PDGTablesBar' on page 3 undefined on input line 32.
+LaTeX Warning: Citation 'PDGTablesBar' on page 5 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'PDGTablesMes' on page 3 undefined on input line 32.
+LaTeX Warning: Citation 'PDGTablesMes' on page 5 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'BelleDetector2002' on page 3 undefined on input line 50.
+LaTeX Warning: Citation 'BelleDetector2002' on page 5 undefined on input line 50.
 
-[3
+[5
 
 
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-LaTeX Warning: Citation 'BelleDetector2002' on page 4 undefined on input line 76.
+LaTeX Warning: Citation 'BelleDetector2002' on page 6 undefined on input line 76.
 
-) [4]
+) [6]
 \openout2 = `dat/theory.aux'.
 
- (./dat/theory.tex) [5
+ (./dat/theory.tex) [7
 
 
 
@@ -1398,19 +1432,19 @@ LaTeX Warning: Citation 'BelleDetector2002' on page 4 undefined on input line 76
 
  (./dat/bib.tex
 
-LaTeX Warning: Command \textnumero invalid in math mode on input line 18.
+LaTeX Warning: Command \textnumero invalid in math mode on input line 39.
 
 Missing character: There is no ù in font cmr10!
-) [6
+) [8
 
 
 
-] (./NIR.aux (./dat/intro.aux) (./dat/sieve_data.aux) (./dat/theory.aux) (./dat/bib.aux))
+] (./NIR.aux (./dat/intro.aux) (./dat/belle.aux) (./dat/sieve_data.aux) (./dat/theory.aux) (./dat/bib.aux))
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `NIR.out' has not changed.
-(rerunfilecheck)             Checksum: A7FBBAF1996E103EFAB6F43B21102E2B;1385.
+(rerunfilecheck)             Checksum: 8604A66282957695CA23EC3BB1E8703F;2290.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                NIR
@@ -1421,18 +1455,18 @@ Package logreq Info: Writing requests to 'NIR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49376 strings out of 476034
- 1112318 string characters out of 5792854
- 2184352 words of memory out of 6000000
- 69001 multiletter control sequences out of 15000+600000
- 535201 words of font info for 99 fonts, out of 8000000 for 9000
+ 49459 strings out of 476034
+ 1113798 string characters out of 5792854
+ 2187761 words of memory out of 6000000
+ 69056 multiletter control sequences out of 15000+600000
+ 535909 words of font info for 102 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 116i,11n,118p,1510b,3089s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on NIR.pdf (6 pages, 254942 bytes).
+ 116i,13n,118p,1458b,3089s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on NIR.pdf (8 pages, 1221197 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 77 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 254 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
