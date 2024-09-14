@@ -1,0 +1,72 @@
+\mysection{Алгоритм подбора массы рекоил}
+
+\begin{figure}[h!]
+    \centering
+    \begin{tikzpicture}
+        \begin{feynhand}
+            \vertex [particle] (e) at (-3,0) {$e^-$};
+            \vertex [particle] (ae) at (3,0) {$e^+$};
+            
+            \vertex [dot] (w1) at (0, 0) {};
+                        
+            \vertex [particle] (p1) at (1.964,-0.377) {$p_1$};
+            \vertex [particle] (p2) at (-1.350,1.476) {$p_2$};
+            \vertex [particle] (p3) at (1.582,1.222) {$p_3$};
+            \vertex [particle] (lam_c) at (-1.667,-1.108) {$p_{taging}$};
+        
+            \propag [fermion] (e) to (w1);
+            \propag [fermion] (ae) to (w1);
+            \propag [fermion] (w1) to (p1);
+            \propag [fermion] (w1) to (p2);
+            \propag [fermion] (w1) to (p3);
+            \propag [fermion] (w1) to (lam_c);
+        \end{feynhand}
+    \end{tikzpicture}
+    \caption{Диаграмма распада.}
+    \label{fit_tag}
+\end{figure}
+
+Дано: $p_1, p_2, p_3$ --- это 4-импульсы продуктов распада (тагирующих выбранную частицу), представленных на рис.~\ref{fit_tag}. 
+Также известны матрицы ковариаций компонент 3-импульса $\Xi_1, \Xi_2, \Xi_3$ для соответствующих частиц. 
+$p_{\text{beam}}$ — это 4-импульс системы ($p_{\text{beam}}$), а $M_{\text{rec}}$ --- это масса недостающей (тагируемой) частицы.
+
+Для поиска оптимального решения используется метод множителей Лагранжа. Поскольку мы минимизируем изменения импульсов с учётом их ошибок, применяем следующую функцию:
+
+\begin{equation}
+    \chi^2 = \sum_n \inner{p_{n}}_i  \inner{\Xi_n^{-1}}_{ij}  \inner{p_{n}}_j
+\end{equation}
+
+Функция Лагранжа с наложением ограничения имеет вид:
+
+\begin{equation}
+    M_{\text{rec}}^2 - (p_{\text{beam}} - \sum_n p_n)_\mu (p_{\text{beam}} - \sum_n p_n)^\mu = 0
+\end{equation}
+
+Полная функция Лагранжа с множителем Лагранжа $\lambda$ записывается следующим образом:
+
+\begin{equation}
+    \mathfrak{L}(p_n, \lambda) = 
+    sum_n \inner{p_{n}}_i  \inner{\Xi_n^{-1}}_{ij}  \inner{p_{n}}_j + 
+    \lambda \left( M_{\text{rec}}^2 - (p_{\text{beam}} - \sum_n p_n)_\mu (p_{\text{beam}} - \sum_n p_n)^\mu \right)
+\end{equation}
+
+Для минимизации используется метод Ньютона-Рафсона. На каждом шаге вычисляются градиент (первая производная) и гессиан (матрица вторых производных) функции Лагранжа:
+
+\begin{equation}
+    \nabla \mathfrak{L}(x_n) = c_n, \Delta \otimes \Delta \mathfrak{L}(x_n)  = \hat{A}_n
+\end{equation}
+
+где $x_n$ — это вектор параметров на $n$-м шаге. Затем на каждом шаге решается система уравнений для обновления параметров:
+
+\begin{equation}
+    \hat{A}_n \, \delta x_{n+1} = -c_n
+\end{equation}
+
+После чего параметры обновляются:
+
+\begin{equation}
+    x_{n+1} = x_n + \delta x_{n+1}
+\end{equation}
+
+
+

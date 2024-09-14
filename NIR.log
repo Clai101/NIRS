@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  12 SEP 2024 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  15 SEP 2024 02:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -850,7 +850,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip85
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box69
@@ -913,7 +913,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
  (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks51
@@ -1206,29 +1206,29 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count477
 \@quotereset=\count478
-(./NIR.aux)
+(./NIR.aux (./dat/intro.aux) (./dat/belle.aux) (./dat/sieve_data.aux) (./dat/lc_combination.aux) (./dat/theory.aux) (./dat/r_mass_fit.aux) (./dat/bib.aux))
 \openout1 = `NIR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 163.
-LaTeX Font Info:    ... okay on input line 163.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 160.
+LaTeX Font Info:    ... okay on input line 160.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count479
@@ -1249,7 +1249,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package tikz-feynhand Warning: Consider loading TikZ-Feynhand with \usepackage[compat=1.1.0]{tikz-feynhand} so that you can be warned if TikZ-Feynhand changes. on input line 163.
+Package tikz-feynhand Warning: Consider loading TikZ-Feynhand with \usepackage[compat=1.1.0]{tikz-feynhand} so that you can be warned if TikZ-Feynhand changes. on input line 160.
 
 Package biblatex Info: Trying to load language 'russian' -> 'russian-gost'...
 Package biblatex Info: ... file 'russian-gost.lbx' found.
@@ -1287,26 +1287,35 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'NIR.bbl' found.
  (./NIR.bbl)
-Package biblatex Info: Reference section=0 on input line 163.
-Package biblatex Info: Reference segment=0 on input line 163.
-Package hyperref Info: Link coloring ON on input line 163.
+Package biblatex Info: Reference section=0 on input line 160.
+Package biblatex Info: Reference segment=0 on input line 160.
+Package hyperref Info: Link coloring ON on input line 160.
+ (./NIR.out) (./NIR.out)
 \@outlinefile=\write5
 \openout5 = `NIR.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \th on input line 163.
+LaTeX Info: Redefining \th on input line 160.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 163.
+ on input line 160.
 
-No file NIR.toc.
+(./NIR.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write6
 \openout6 = `NIR.toc'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titleps.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titleps.sty
 
 Package titlesec Warning: You are using an old interface for page styles
 (titlesec)                (or you forgot the package option 'pagestyles').
@@ -1319,14 +1328,6 @@ Package titlesec Warning: You are using an old interface for page styles
 \openout2 = `dat/intro.aux'.
 
  (./dat/intro.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 LaTeX Warning: Citation 'PhysRevLett1975' on page 2 undefined on input line 5.
 
@@ -1334,44 +1335,13 @@ LaTeX Warning: Citation 'PhysRevLett1975' on page 2 undefined on input line 5.
 LaTeX Warning: Citation 'Avery1988' on page 2 undefined on input line 5.
 
 
-LaTeX Warning: Citation 'CLEO2022' on page 2 undefined on input line 14.
+LaTeX Warning: Citation 'CLEO2023' on page 2 undefined on input line 14.
 
-./dat/intro.tex:14: Undefined control sequence.
-l.14 ...(\Lambda_c \rightarrow \Lambda \mu \nu_{\–
-                                                  º—É}) = 3.48 \pm 0.17\%$ —...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./dat/intro.tex:14: LaTeX Error: Invalid UTF-8 byte "BC.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 ...\Lambda_c \rightarrow \Lambda \mu \nu_{\–º
-                                                  —É}) = 3.48 \pm 0.17\%$ —Å...
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-LaTeX Warning: Command \cyru invalid in math mode on input line 14.
-
-Missing character: There is no Û in font cmr7!
 
 LaTeX Warning: Citation 'CLEO2023' on page 2 undefined on input line 14.
 
 
 LaTeX Warning: Citation 'CLEO2023' on page 2 undefined on input line 20.
-
-
-LaTeX Warning: Reference `tb:chd' on page 2 undefined on input line 32.
 
 LaTeX Font Info:    Trying to load font information for U+euf on input line 39.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
@@ -1406,21 +1376,17 @@ LaTeX Warning: Citation 'LFCQM2018' on page 2 undefined on input line 49.
 \openout2 = `dat/belle.aux'.
 
  (./dat/belle.tex
-<img/kekb.png, id=36, 853.1875pt x 1260.71pt>
+<img/kekb.png, id=103, 853.1875pt x 1260.71pt>
 File: img/kekb.png Graphic file (type png)
 <use img/kekb.png>
 Package pdftex.def Info: img/kekb.png  used on input line 21.
 (pdftex.def)             Requested size: 263.7856pt x 389.77728pt.
-
-
-LaTeX Warning: Reference `the:belle' on page 3 undefined on input line 39.
-
-[3
+ [3
 
 
 
  <./img/kekb.png>]
-<img/the_belle.png, id=47, 931.48pt x 620.3175pt>
+<img/the_belle.png, id=112, 931.48pt x 620.3175pt>
 File: img/the_belle.png Graphic file (type png)
 <use img/the_belle.png>
 Package pdftex.def Info: img/the_belle.png  used on input line 44.
@@ -1463,13 +1429,44 @@ LaTeX Warning: Citation 'BelleDetector2002' on page 5 undefined on input line 50
 LaTeX Warning: Citation 'BelleDetector2002' on page 6 undefined on input line 76.
 
 ) [6]
-\openout2 = `dat/theory.aux'.
+\openout2 = `dat/lc_combination.aux'.
 
- (./dat/theory.tex) [7
+ (./dat/lc_combination.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Lambda' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 1.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 1.
+
+) [7
 
 
 
 ]
+\openout2 = `dat/theory.aux'.
+
+ (./dat/theory.tex) [8
+
+
+
+]
+\openout2 = `dat/r_mass_fit.aux'.
+
+ (./dat/r_mass_fit.tex) [9
+
+
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}]
 \openout2 = `dat/bib.aux'.
 
  (./dat/bib.tex
@@ -1477,25 +1474,16 @@ LaTeX Warning: Citation 'BelleDetector2002' on page 6 undefined on input line 76
 LaTeX Warning: Command \textnumero invalid in math mode on input line 39.
 
 Missing character: There is no ù in font cmr10!
-) [8
+) [10
 
 
 
-] (./NIR.aux (./dat/intro.aux) (./dat/belle.aux) (./dat/sieve_data.aux) (./dat/theory.aux) (./dat/bib.aux))
+] (./NIR.aux (./dat/intro.aux) (./dat/belle.aux) (./dat/sieve_data.aux) (./dat/lc_combination.aux) (./dat/theory.aux) (./dat/r_mass_fit.aux) (./dat/bib.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `NIR.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `NIR.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  8604A66282957695CA23EC3BB1E8703F;2290.
+Package rerunfilecheck Info: File `NIR.out' has not changed.
+(rerunfilecheck)             Checksum: FEB456A8172876C36A55D0EC2FF5C1AC;2735.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                NIR
@@ -1506,18 +1494,18 @@ Package logreq Info: Writing requests to 'NIR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49425 strings out of 476034
- 1113356 string characters out of 5792854
- 2171519 words of memory out of 6000000
- 69038 multiletter control sequences out of 15000+600000
- 535909 words of font info for 102 fonts, out of 8000000 for 9000
+ 49608 strings out of 476034
+ 1117373 string characters out of 5792854
+ 2194193 words of memory out of 6000000
+ 69178 multiletter control sequences out of 15000+600000
+ 539063 words of font info for 113 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  116i,13n,118p,1458b,3089s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on NIR.pdf (8 pages, 1217074 bytes).
+Output written on NIR.pdf (10 pages, 1239357 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 57 named destinations out of 1000 (max. 500000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 
