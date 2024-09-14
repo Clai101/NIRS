@@ -11,5 +11,5 @@
 \contentsline {subsection}{\numberline {3.2}Критерии отбора}{5}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Поиск $\Lambda _c$}{7}{section.4}%
 \contentsline {section}{Appendix 1: Метод вычисления формфактора}{8}{customsection.1}%
-\contentsline {section}{Appendix 2: Алгоритм подбора массы рекоил}{9}{customsection.2}%
+\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{9}{customsection.2}%
 \contentsline {section}{\numberline {5}Литература}{10}{section.5}%
