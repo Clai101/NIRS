@@ -45,7 +45,7 @@ $p_{\text{beam}}$ — это 4-импульс системы ($p_{\text{beam}}$)
 Полная функция Лагранжа с множителем Лагранжа $\lambda$ записывается следующим образом:
 
 \begin{equation}
-    \mathfrak{L}(p_n, \lambda) = 
+    \mathcal{L}(p_n, \lambda) = 
     sum_n \inner{p_{n}}_i  \inner{\Xi_n^{-1}}_{ij}  \inner{p_{n}}_j + 
     \lambda \left( M_{\text{rec}}^2 - (p_{\text{beam}} - \sum_n p_n)_\mu (p_{\text{beam}} - \sum_n p_n)^\mu \right)
 \end{equation}
@@ -53,7 +53,7 @@ $p_{\text{beam}}$ — это 4-импульс системы ($p_{\text{beam}}$)
 Для минимизации используется метод Ньютона-Рафсона. На каждом шаге вычисляются градиент (первая производная) и гессиан (матрица вторых производных) функции Лагранжа:
 
 \begin{equation}
-    \nabla \mathfrak{L}(x_n) = c_n, \Delta \otimes \Delta \mathfrak{L}(x_n)  = \hat{A}_n
+    \nabla \mathcal{L}(x_n) = c_n, \Delta \otimes \Delta \mathcal{L}(x_n)  = \hat{A}_n
 \end{equation}
 
 где $x_n$ — это вектор параметров на $n$-м шаге. Затем на каждом шаге решается система уравнений для обновления параметров:
@@ -67,6 +67,4 @@ $p_{\text{beam}}$ — это 4-импульс системы ($p_{\text{beam}}$)
 \begin{equation}
     x_{n+1} = x_n + \delta x_{n+1}.
 \end{equation}
-
-
 

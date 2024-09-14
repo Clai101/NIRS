@@ -22,15 +22,6 @@
 
 \usepackage[backend=biber, style=gost-numeric]{biblatex} % Литература по госту
 
-\usepackage{hyperref} % Ссылки как внешние так и внутренние
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    pdftitle={Overleaf Example},
-    pdfpagemode=FullScreen,
-    }
     
 %Пакеты для оформления:
 \RequirePackage[center, medium]{titlesec}% Стиль секций и заголовков
@@ -145,14 +136,13 @@
 }
 \newcommand\tab[1][0.51cm]{\hspace*{#1}}
 \newcommand\difh[2]{\frac{\partial #1}{\partial #2}}
-\newcommand{\messageforpeople}[1]{HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics HSE Faculty of Physics \ \ HSE Faculty of Physics }
 
 \newcounter{customsection}
 \newcommand{\mysection}[1]{
     \refstepcounter{customsection}
     \addcontentsline{toc}{section}{Appendix \arabic{customsection}: #1} % Добавляет запись в содержание
-    \noindent\textbf{Appendix \arabic{customsection}: #1}
-}
+    \noindent\textbf{Appendix \arabic{customsection}: #1} % Как выглядит в тексте 
+} % Независимые секции (аппендиксы) 
 
 
 
