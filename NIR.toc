@@ -6,12 +6,13 @@
 \contentsline {section}{\numberline {2}Экспериментальная установка}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Коллайдер KEK}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Детектор Belle}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Работа поддетекторов}{5}{section.3}%
+\contentsline {section}{\numberline {3}Методы измерения}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}SVD}{5}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Сбор данных}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Тагирование $\Lambda _c$}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Критерии отбора}{6}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Поиск $\Lambda _c$}{8}{section.5}%
-\contentsline {section}{Appendix 1: Метод вычисления формфактора}{9}{customsection.1}%
-\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{10}{customsection.2}%
-\contentsline {section}{\numberline {6}Литература}{11}{section.6}%
+\contentsline {subsection}{\numberline {3.2}Система идентификации заряженных адронов}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Сбор данных}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Тагирование $\Lambda _c$}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Критерии отбора}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Поиск $\Lambda _c$}{9}{section.5}%
+\contentsline {section}{Appendix 1: Метод вычисления формфактора}{10}{customsection.1}%
+\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{11}{customsection.2}%
+\contentsline {section}{\numberline {6}Литература}{12}{section.6}%
