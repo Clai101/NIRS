@@ -9,6 +9,8 @@
 \contentsline {section}{\numberline {3}Методы измерения}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}SVD}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Система идентификации заряженных адронов}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}ECL (CsI)}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}KLM}{6}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Сбор данных}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Тагирование $\Lambda _c$}{7}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Критерии отбора}{7}{subsection.4.2}%
