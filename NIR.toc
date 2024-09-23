@@ -16,5 +16,5 @@
 \contentsline {subsection}{\numberline {4.2}Критерии отбора}{7}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Поиск $\Lambda _c$}{9}{section.5}%
 \contentsline {section}{Appendix 1: Метод вычисления формфактора}{10}{customsection.1}%
-\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{11}{customsection.2}%
-\contentsline {section}{\numberline {6}Литература}{12}{section.6}%
+\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{12}{customsection.2}%
+\contentsline {section}{\numberline {6}Литература}{13}{section.6}%

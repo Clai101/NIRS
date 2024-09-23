@@ -44,32 +44,124 @@ $B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}
 \to B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}} 
 + l\inner{p_l, m_l} + \nu_l \inner{p_\nu, m = 0}$. 
 Форм факторы выражаются как:
-\begin{equation}
+\begin{eqnarray}
     \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
     j_\nu^V
     \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} = 
-    u_2^\dag \inner{\mathfrak F^V_1 \inner{q^2} \gamma_\nu + 
+    u_\Lambda^\dag \inner{\mathfrak F^V_1 \inner{q^2} \gamma_\nu + 
     \cfrac{\mathfrak F^V_2}{M_{\Lambda_c}} \inner{q^2} \sigma_{\mu\nu} q^\nu + 
-    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} u_1 
-\end{equation}
-
-\begin{equation}
+    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} u_{\Lambda_c} \\
     \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
     j_\nu^A
     \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} = 
-    u_2^\dag \inner{\mathfrak F^A_1 \inner{q^2} \gamma_\nu + 
+    u_\Lambda^\dag \inner{\mathfrak F^A_1 \inner{q^2} \gamma_\nu + 
     \cfrac{\mathfrak F^A_2}{M_{\Lambda_c}} \inner{q^2} \sigma_{\mu\nu} q^\nu + 
-    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} \gamma_5 u_1 
-\end{equation}
+    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} \gamma_5 u_{\Lambda_c} 
+    \label{eq:def_form}
+\end{eqnarray}
 
 Где $\gamma_\mu$ - матрци Диррака, $q_\mu$ - 4-импульс $W^+$ бозона,
 $\sigma_{\mu\nu} = \cfrac{1}{2} \inner{\gamma_\mu \gamma_\nu - \gamma_\nu \gamma_\mu}$.
 
+Из уравнения диррака мы знаем что биспинор нерялитивисткой частици выглядит как:
 
+\begin{gather}
+    u = 
+    \begin{pmatrix}
+        \phi_\pm \\
+        \chi_\pm
+    \end{pmatrix}
+    =
+    \begin{pmatrix}
+        \chi_\pm \\
+        \cfrac{\mp p}{E - M^2} \chi_\pm
+    \end{pmatrix};
+    \phi_\pm = \cfrac{\mp p}{E - M^2} \chi_\pm.
+\end{gather}
 
-\redd{Дописать вывод связи форм фактора и спиральности}
+Где $p, E, M$ импульс, энергия и масса частици в произвольной системе отсчета, $\chi, \phi$ связаные друг с другом спиноры частици. 
+Но можно расматривать пороцес в системе отсчетсчета $\Lambda_c$, 
+тога биспинор $\Lambda_c$ примет вид:
 
+\begin{gather}
+    u_{\Lambda_c} = \sqrt{2 M_{\Lambda_c}}
+    \begin{pmatrix}
+        \chi_\pm \\
+        0
+    \end{pmatrix},
+\end{gather}
 
+а биспинор $\Lambda$: 
+
+\begin{gather}
+    u_{\Lambda} = \sqrt{E_{\Lambda} + M_{\Lambda}}
+    \begin{pmatrix}
+        \chi_\pm \\
+        \cfrac{\mp \abs{p_{\Lambda_c}}}{E - M^2} \chi_\pm
+    \end{pmatrix}.
+\end{gather}
+
+Где $\chi$ сответствующие спиноры частиц:
+\begin{gather}
+    \chi_+ = 
+    \begin{pmatrix}
+        1 \\
+        0
+    \end{pmatrix}; \
+    \chi_- = 
+    \begin{pmatrix}
+        0 \\
+        1
+    \end{pmatrix}.
+\end{gather}
+
+А 4-импульс $W$-бозона в этойже системе отсчета примет вид:
+
+\begin{gather}
+    q^\mu = 
+    \begin{pmatrix}
+        q_0 \\ 0 \\ 0 \\ -p
+    \end{pmatrix} .
+\end{gather}
+
+Спиральность определятся как:
+
+\begin{equation}
+    H_{\lambda_\Lambda \lambda_w} = H^V_{\lambda_\Lambda \lambda_w} 
+    + H^A_{\lambda_\Lambda \lambda_w} 
+\end{equation}
+
+\begin{equation}
+    H^{V,A}_{\lambda_\Lambda \lambda_w} = 
+    \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
+    j_\nu^V
+    \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} 
+    \eps^\nu \inner{\lambda_w}
+    \label{eq:helisity}
+\end{equation}
+
+И в стойже система отсчета 4 вектор поляризации, первое число показывает 
+проекцию спина на импульс, а второе полный спин:
+
+\begin{gather}
+    \eps^\nu\inner{0, 0} = \cfrac{1}{q} 
+    \begin{pmatrix}
+        q \\ 0 \\ 0 \\ -p
+    \end{pmatrix}
+    ;\
+    \eps^\nu\inner{\pm 1, 1} = \cfrac{1}{\sqrt{2}} 
+    \begin{pmatrix}
+        0 \\ \pm 1 \\ -i \\ 0
+    \end{pmatrix}
+    ;\
+    \eps^\nu\inner{0, 1} = \cfrac{1}{q} 
+    \begin{pmatrix}
+        p \\ 0 \\ 0 \\ -q
+    \end{pmatrix}
+    \label{eq:pol}
+\end{gather}
+
+Простая подстановка \ref{eq:pol} и \ref{eq:def_form} в \ref{eq:helisity}, даст нам:
 
 
 
