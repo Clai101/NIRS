@@ -1,12 +1,12 @@
 \mysection{Метод вычисления формфактора}
-
-$\Lambda_c$ барион состит из $ucd$ кварков, в ходе распараспада 
-$\Lambda_c \rightarrow \Lambda l \nu_l$ проискходит переход $c\to s$ 
-посредством испускания $W^+$ бозона тоесть правиьно будет записвть $c\to s W^+$,
+ 
+$\Lambda_c$-барион состоит из $ucd$ кварков. В ходе распада 
+$\Lambda_c \rightarrow \Lambda l \nu_l$ происходит переход $c \to s$ 
+посредством испускания $W^+$-бозона, то есть правильно будет записать $c \to s W^+$.
 $W^+$ распадается на $W^+ \to l^+ \nu_l$, в итоге оставшиеся кварки 
-$uds$ формируются в $\Lambda$ барион. Таким образом получим следующую 
-феймановскую диаграмму.
-
+$uds$ формируются в $\Lambda$-барион. Таким образом, получим следующую 
+фейнмановскую диаграмму.
+ 
 \begin{figure}[H]
     \centering
     \begin{tikzpicture}
@@ -35,36 +35,36 @@ $uds$ формируются в $\Lambda$ барион. Таким образо�
         \end{feynhand}
     \end{tikzpicture}
 \end{figure}
-
-Переход $\Lambda_c \to \Lambda$ индуцирется слабым током $j_\mu$, 
-котрый можно разложить по аксиальной и векторной части: 
+ 
+Переход $\Lambda_c \to \Lambda$ индуцируется слабым током $j_\mu$, 
+который можно разложить по аксиальной и векторной частям: 
 $j_\mu = j_\mu^A + j_\mu^V$.
 Обозначим волновые функции частиц
 $B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}} 
 \to B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}} 
 + l\inner{p_l, m_l} + \nu_l \inner{p_\nu, m = 0}$. 
-Форм факторы выражаются как:
+Формфакторы выражаются как:
 \begin{eqnarray}
     \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
     j_\nu^V
     \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} = 
     u_\Lambda^\dag \inner{\mathfrak F^V_1 \inner{q^2} \gamma_\nu + 
     \cfrac{\mathfrak F^V_2}{M_{\Lambda_c}} \inner{q^2} \sigma_{\mu\nu} q^\nu + 
-    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} u_{\Lambda_c} \\
+    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2} q_\mu} u_{\Lambda_c} \\
     \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
     j_\nu^A
     \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} = 
     u_\Lambda^\dag \inner{\mathfrak F^A_1 \inner{q^2} \gamma_\nu + 
     \cfrac{\mathfrak F^A_2}{M_{\Lambda_c}} \inner{q^2} \sigma_{\mu\nu} q^\nu + 
-    \cfrac{\mathfrak F^V_3}{M_{\Lambda_c}} \inner{q^2}q_\mu} \gamma_5 u_{\Lambda_c} 
+    \cfrac{\mathfrak F^A_3}{M_{\Lambda_c}} \inner{q^2} q_\mu} \gamma_5 u_{\Lambda_c} 
     \label{eq:def_form}
 \end{eqnarray}
-
-Где $\gamma_\mu$ - матрци Диррака, $q_\mu$ - 4-импульс $W^+$ бозона,
+ 
+Где $\gamma_\mu$ --- матрицы Дирака, $q_\mu$ --- 4-импульс $W^+$-бозона,
 $\sigma_{\mu\nu} = \cfrac{1}{2} \inner{\gamma_\mu \gamma_\nu - \gamma_\nu \gamma_\mu}$.
-
-Из уравнения диррака мы знаем что биспинор нерялитивисткой частици выглядит как:
-
+ 
+Из уравнения Дирака мы знаем, что биспинор нерелятивистской частицы выглядит как:
+ 
 \begin{gather}
     u = 
     \begin{pmatrix}
@@ -78,11 +78,11 @@ $\sigma_{\mu\nu} = \cfrac{1}{2} \inner{\gamma_\mu \gamma_\nu - \gamma_\nu \gamma
     \end{pmatrix};
     \phi_\pm = \cfrac{\mp p}{E - M^2} \chi_\pm.
 \end{gather}
-
-Где $p, E, M$ импульс, энергия и масса частици в произвольной системе отсчета, $\chi, \phi$ связаные друг с другом спиноры частици. 
-Но можно расматривать пороцес в системе отсчетсчета $\Lambda_c$, 
-тога биспинор $\Lambda_c$ примет вид:
-
+ 
+Где $p$, $E$, $M$ --- импульс, энергия и масса частицы в произвольной системе отсчета, $\chi$, $\phi$ --- связанные друг с другом спиноры частицы. 
+Но можно рассматривать процесс в системе отсчета $\Lambda_c$, 
+тогда биспинор $\Lambda_c$ примет вид:
+ 
 \begin{gather}
     u_{\Lambda_c} = \sqrt{2 M_{\Lambda_c}}
     \begin{pmatrix}
@@ -90,9 +90,9 @@ $\sigma_{\mu\nu} = \cfrac{1}{2} \inner{\gamma_\mu \gamma_\nu - \gamma_\nu \gamma
         0
     \end{pmatrix},
 \end{gather}
-
+ 
 а биспинор $\Lambda$: 
-
+ 
 \begin{gather}
     u_{\Lambda} = \sqrt{E_{\Lambda} + M_{\Lambda}}
     \begin{pmatrix}
@@ -100,70 +100,102 @@ $\sigma_{\mu\nu} = \cfrac{1}{2} \inner{\gamma_\mu \gamma_\nu - \gamma_\nu \gamma
         \cfrac{\mp \abs{p_{\Lambda_c}}}{E - M^2} \chi_\pm
     \end{pmatrix}.
 \end{gather}
-
-Где $\chi$ сответствующие спиноры частиц:
+ 
+Где $\chi$ --- соответствующие спиноры частиц:
 \begin{gather}
     \chi_+ = 
     \begin{pmatrix}
         1 \\
         0
-    \end{pmatrix}; \
+    \end{pmatrix}; \quad
     \chi_- = 
     \begin{pmatrix}
         0 \\
         1
     \end{pmatrix}.
 \end{gather}
-
-А 4-импульс $W$-бозона в этойже системе отсчета примет вид:
-
+ 
+А 4-импульс $W$-бозона в той же системе отсчета примет вид:
+ 
 \begin{gather}
     q^\mu = 
     \begin{pmatrix}
         q_0 \\ 0 \\ 0 \\ -p
-    \end{pmatrix} .
+    \end{pmatrix}.
 \end{gather}
-
-Спиральность определятся как:
-
+ 
+Спиральность определяется как:
+ 
 \begin{equation}
     H_{\lambda_\Lambda \lambda_w} = H^V_{\lambda_\Lambda \lambda_w} 
     + H^A_{\lambda_\Lambda \lambda_w} 
 \end{equation}
-
+ 
 \begin{equation}
     H^{V,A}_{\lambda_\Lambda \lambda_w} = 
     \bra{B_{\Lambda_c} \inner{p_{\Lambda_c}, M_{\Lambda_c}}}
-    j_\nu^V
+    j_\nu^{V,A}
     \ket{B_{\Lambda} \inner{p_{\Lambda}, M_{\Lambda}}} 
     \eps^\nu \inner{\lambda_w}
     \label{eq:helisity}
 \end{equation}
-
-И в стойже система отсчета 4 вектор поляризации, первое число показывает 
-проекцию спина на импульс, а второе полный спин:
-
+ 
+И в стойкой системе отсчета 4-вектор поляризации, первое число показывает 
+проекцию спина на импульс, а второе --- полный спин:
+ 
 \begin{gather}
     \eps^\nu\inner{0, 0} = \cfrac{1}{q} 
     \begin{pmatrix}
         q \\ 0 \\ 0 \\ -p
-    \end{pmatrix}
-    ;\
+    \end{pmatrix},
+    \quad
     \eps^\nu\inner{\pm 1, 1} = \cfrac{1}{\sqrt{2}} 
     \begin{pmatrix}
         0 \\ \pm 1 \\ -i \\ 0
-    \end{pmatrix}
-    ;\
+    \end{pmatrix},
+    \quad
     \eps^\nu\inner{0, 1} = \cfrac{1}{q} 
     \begin{pmatrix}
         p \\ 0 \\ 0 \\ -q
     \end{pmatrix}
     \label{eq:pol}
 \end{gather}
-
-Простая подстановка \ref{eq:pol} и \ref{eq:def_form} в \ref{eq:helisity}, даст нам:
-
-
-
-
-
+ 
+Из законов сохранения импульса и энергии можно также вывести, что:
+ 
+\begin{equation}
+    q_0 = \frac{1}{2 M_{\Lambda_c}} \inner{ M_{\Lambda_c}^2 - M_{\Lambda}^2 + q^2 },
+\end{equation}
+ 
+\begin{equation}
+p = \abs{\vec{p}_2} = \frac{1}{2 M_{\Lambda_c}} \sqrt{\inner{ M_{\Lambda_c} + M_{\Lambda} }^2 - q^2} \sqrt{\inner{ M_{\Lambda_c} - M_{\Lambda} }^2 - q^2},
+\end{equation}
+ 
+Простая подстановка \ref{eq:pol} и \ref{eq:def_form} в \ref{eq:helisity} даст нам:
+ 
+\begin{equation}
+H^{V}_{\frac{1}{2}t} = \frac{\sqrt{Q_+}}{\sqrt{q^2}} \inrad{ F_1^V \inrad{ M_{\Lambda_c} - M_{\Lambda} } + F_3^V \frac{q^2}{M_{\Lambda_c}} },
+\end{equation}
+\begin{equation}
+H^{V}_{\frac{1}{2}1} = \sqrt{2Q_-} \inrad{ - F_1^V - F_2^V \frac{M_{\Lambda_c} + M_{\Lambda}}{M_{\Lambda_c}} },
+\end{equation}
+\begin{equation}
+H^{V}_{\frac{1}{2}0} = \frac{\sqrt{Q_-}}{\sqrt{q^2}} \inrad{ F_1^V \inrad{ M_{\Lambda_c} + M_{\Lambda} } + F_2^V \frac{q^2}{M_{\Lambda_c}} },
+\end{equation}
+\begin{equation}
+H^{A}_{\frac{1}{2}t} = \frac{\sqrt{Q_-}}{\sqrt{q^2}} \inrad{ - F_1^A \inrad{ M_{\Lambda_c} + M_{\Lambda} } + F_3^A \frac{q^2}{M_{\Lambda_c}} },
+\end{equation}
+\begin{equation}
+H^{A}_{\frac{1}{2}1} = \sqrt{2Q_+} \inrad{ F_1^A - F_2^A \frac{M_{\Lambda_c} - M_{\Lambda}}{M_{\Lambda_c}} },
+\end{equation}
+\begin{equation}
+H^{A}_{\frac{1}{2}0} = \frac{\sqrt{Q_+}}{\sqrt{q^2}} \inrad{ - F_1^A \inrad{ M_{\Lambda_c} - M_{\Lambda} } + F_2^A \frac{q^2}{M_{\Lambda_c}} },
+\end{equation}
+ 
+при этом выполняются следующие соотношения чётности:
+\begin{equation}
+H^{V}_{-\lambda_\Lambda,-\lambda_W} = H^{V}_{\lambda_\Lambda,\lambda_W}, \quad
+H^{A}_{-\lambda_\Lambda,-\lambda_W} = - H^{A}_{\lambda_\Lambda,\lambda_W}.
+\end{equation}
+ 
+Для удобства записи было введено обозначение $t$ как проекция 0 в случае полного спина 0.
