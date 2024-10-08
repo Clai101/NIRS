@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  23 SEP 2024 21:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.5.21)  8 OCT 2024 11:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1374,7 +1374,7 @@ LaTeX Warning: Citation 'LFCQM2018' on page 2 undefined on input line 49.
 \openout2 = `dat/belle.aux'.
 
  (./dat/belle.tex
-<img/kekb.png, id=128, 853.1875pt x 1260.71pt>
+<img/kekb.png, id=138, 853.1875pt x 1260.71pt>
 File: img/kekb.png Graphic file (type png)
 <use img/kekb.png>
 Package pdftex.def Info: img/kekb.png  used on input line 21.
@@ -1384,7 +1384,7 @@ Package pdftex.def Info: img/kekb.png  used on input line 21.
 
 
  <./img/kekb.png>]
-<img/the_belle.png, id=137, 931.48pt x 620.3175pt>
+<img/the_belle.png, id=147, 931.48pt x 620.3175pt>
 File: img/the_belle.png Graphic file (type png)
 <use img/the_belle.png>
 Package pdftex.def Info: img/the_belle.png  used on input line 44.
@@ -1393,22 +1393,22 @@ Package pdftex.def Info: img/the_belle.png  used on input line 44.
 \openout2 = `dat/belle_subdetectors.aux'.
 
  (./dat/belle_subdetectors.tex
-<img/SVD.png, id=144, 1313.90875pt x 728.7225pt>
+<img/SVD.png, id=154, 1313.90875pt x 728.7225pt>
 File: img/SVD.png Graphic file (type png)
 <use img/SVD.png>
 Package pdftex.def Info: img/SVD.png  used on input line 7.
 (pdftex.def)             Requested size: 253.23192pt x 140.44908pt.
-<img/CDC.png, id=146, 866.23625pt x 739.76375pt>
+<img/CDC.png, id=156, 866.23625pt x 739.76375pt>
 File: img/CDC.png Graphic file (type png)
 <use img/CDC.png>
 Package pdftex.def Info: img/CDC.png  used on input line 29.
 (pdftex.def)             Requested size: 158.27296pt x 135.16096pt.
-<img/ACC.png, id=148, 741.77126pt x 556.0775pt>
+<img/ACC.png, id=158, 741.77126pt x 556.0775pt>
 File: img/ACC.png Graphic file (type png)
 <use img/ACC.png>
 Package pdftex.def Info: img/ACC.png  used on input line 45.
 (pdftex.def)             Requested size: 211.02525pt x 158.19524pt.
-<img/Ch_hadr_id.png, id=149, 1257.69875pt x 536.0025pt>
+<img/Ch_hadr_id.png, id=159, 1257.69875pt x 536.0025pt>
 File: img/Ch_hadr_id.png Graphic file (type png)
 <use img/Ch_hadr_id.png>
 Package pdftex.def Info: img/Ch_hadr_id.png  used on input line 64.
@@ -1418,7 +1418,7 @@ Package pdftex.def Info: img/Ch_hadr_id.png  used on input line 64.
 
 
  <./img/SVD.png> <./img/CDC.png> <./img/ACC.png>]
-<img/L_P.png, id=160, 731.73375pt x 704.6325pt>
+<img/L_P.png, id=171, 731.73375pt x 704.6325pt>
 File: img/L_P.png Graphic file (type png)
 <use img/L_P.png>
 Package pdftex.def Info: img/L_P.png  used on input line 71.
@@ -1456,7 +1456,19 @@ LaTeX Warning: Citation 'BelleDetector2002' on page 7 undefined on input line 61
 
 
 
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolS.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) [8]
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolS.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<img/all_chan_sv.png, id=197, 1389.19pt x 1739.49875pt>
+File: img/all_chan_sv.png Graphic file (type png)
+<use img/all_chan_sv.png>
+Package pdftex.def Info: img/all_chan_sv.png  used on input line 177.
+(pdftex.def)             Requested size: 527.57121pt x 660.61827pt.
+ [8]
+<img/tag_sum.png, id=211, 1416.29124pt x 1767.60374pt>
+File: img/tag_sum.png Graphic file (type png)
+<use img/tag_sum.png>
+Package pdftex.def Info: img/tag_sum.png  used on input line 191.
+(pdftex.def)             Requested size: 527.57121pt x 658.42647pt.
+ [9 <./img/all_chan_sv.png>]) [10] [11 <./img/tag_sum.png>]
 \openout2 = `dat/lc_combination.aux'.
 
  (./dat/lc_combination.tex
@@ -1477,26 +1489,26 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
 
-LaTeX Warning: Citation 'BelleDetector2002' on page 9 undefined on input line 36.
+LaTeX Warning: Citation 'BelleDetector2002' on page 12 undefined on input line 36.
 
 
-LaTeX Warning: Citation 'Krohn2021' on page 9 undefined on input line 47.
+LaTeX Warning: Citation 'Krohn2021' on page 12 undefined on input line 47.
 
-) [9
+) [12
 
 
 
 ]
 \openout2 = `dat/theory.aux'.
 
- (./dat/theory.tex [10
+ (./dat/theory.tex [13
 
 
 
-]) [11]
+]) [14]
 \openout2 = `dat/r_mass_fit.aux'.
 
- (./dat/r_mass_fit.tex) [12
+ (./dat/r_mass_fit.tex) [15
 
 
 
@@ -1508,7 +1520,7 @@ LaTeX Warning: Citation 'Krohn2021' on page 9 undefined on input line 47.
 LaTeX Warning: Command \textnumero invalid in math mode on input line 39.
 
 Missing character: There is no ù in font cmr10!
-) [13
+) [16
 
 
 
@@ -1517,7 +1529,7 @@ Missing character: There is no ù in font cmr10!
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `NIR.out' has not changed.
-(rerunfilecheck)             Checksum: 5FE361314C7789A81EE9BBDADDA8A13A;3687.
+(rerunfilecheck)             Checksum: 29BDD63031C23223777D7C91D83C97F9;4235.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                NIR
@@ -1528,18 +1540,18 @@ Package logreq Info: Writing requests to 'NIR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49724 strings out of 476034
- 1119751 string characters out of 5792854
- 2206076 words of memory out of 6000000
- 69246 multiletter control sequences out of 15000+600000
+ 49752 strings out of 476034
+ 1120218 string characters out of 5792854
+ 2206091 words of memory out of 6000000
+ 69260 multiletter control sequences out of 15000+600000
  539764 words of font info for 117 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  116i,19n,118p,1066b,3089s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on NIR.pdf (13 pages, 2936407 bytes).
+Output written on NIR.pdf (16 pages, 3225585 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 307 compressed objects within 4 object streams
- 89 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 335 compressed objects within 4 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

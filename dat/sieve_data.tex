@@ -1,4 +1,4 @@
-\section{Каналов тагирования}
+\section{Отбор каналов тагирования}
 \label{taging}
 \subsection{Тагирование $\Lambda_c$}
 
@@ -38,18 +38,18 @@ $X_c$. Также важно понимать, что чем больше час
 экспоненциально, так как сложность алгоритма $\mathcal{O}(\prod_n N_n)$ 
 (где $N_n$ количестов задетектированных частиц типа $n$ в событии).
 
-В работе рассматриваются $X_c \to \Lambda^{tag}_c; \Lambda^{tag}_c \pi^- \pi^-; \Lambda^{tag}_c \pi^+ \pi^- \pi^+ \pi^-; D^0 p; D^+ p \pi^-; D*^0 p; D*^+ p \pi^- $, 
+В работе рассматриваются $X_c \to \Lambda^{tag}_c; \Lambda^{tag}_c \pi^- \pi^+; \Lambda^{tag}_c \pi^+ \pi^- \pi^+ \pi^-; D^0 p; D^+ p \pi^-; D^{*0} p; D^{*+} p \pi^- $, 
 чтобы отличать $\Lambda_c$ котрую тагируемую от тагирующей (той что является продуктом $X_c$), вторую обозначаим как $\Lambda^{tag}_c$.
 Каналы распада прочих частиц будем импользовать заведомо изветные самые эффективные каналы, согласно \cite{PDGTablesBar} для барионов и \cite{PDGTablesMes} для мезонов.
 \begin{figure}[h]
     \centering
     \begin{tabular}{c|c}
         Particle & Channels \\ \hline
-        $D^0$ & $K^- \pi^+; K^- \pi^+ \pi^+ \pi^-; K^- K^+; K^0_s \pi^+ \pi^+; K^0_s \pi^0; K^+ K^- K_s^0$ \\
+        $D^0$ & $K^- \pi^+; K^- \pi^+ \pi^+ \pi^-; K^- K^+; K^0_s \pi^+ \pi^-; K^0_s \pi^0; K^+ K^- K_s^0$ \\
         $D^+$ & $K^- \pi^+ \pi^+; K^0_s \pi^+; K^0_s \pi^+ \pi^+ \pi^-; K^+ K^- \pi^+$ \\
         $\Lambda^{tag+}_c$ & $pK^-\pi^+; \Lambda^0 \pi^+; \Lambda^0 \pi^+ \pi^0; p K_s^0 \pi^0$ \\
-        $D*^0$ & $D^0 \pi^0; D^0 \gamma$ \\
-        $D*^+$ & $D^+ \pi^0; D^0 \pi^+$ \\
+        $D^{*0}$ & $D^0 \pi^0; D^0 \gamma$ \\
+        $D^{*+}$ & $D^+ \pi^0; D^0 \pi^+$ \\
         $\pi^0$ & $\gamma \gamma$ \\
         $K_s^0$ & $\pi^+ \pi^-$
     \end{tabular}
@@ -103,21 +103,21 @@ $$
     \begin{tabular}{c|c}
         $D^0$ & $\abs{M_{D^0} - M^{real}_{D^0}} < 15 MeV$ \\
         $D^\pm$ & $\abs{M_{D^\pm} - M^{real}_{D^\pm}} < 15 MeV$ \\
-        $D*^{\pm}$ & $\abs{M_{D*^\pm} - M^{real}_{D*^\pm}} < 3 MeV$ \\
-        $D*^0$ & $\abs{M_{D*^0} - M^{real}_{D*^0}} < 3 MeV$ \\
+        $D^{*\pm}$ & $\abs{M_{D^{*\pm}} - M^{real}_{D^{*\pm}}} < 3 MeV$ \\
+        $D^{*0}$ & $\abs{M_{D^{*0}} - M^{real}_{D^{*0}}} < 3 MeV$ \\
     \end{tabular}
 \end{figure}
 
 Где $M^{real}_{D^\pm} = 1864.83 MeV; M^{real}_{D^0} = 1869.65 MeV; 
-M^{real}_{D*^\pm} = 2010.26;  M^{real}_{D*^0} = 2006.85 MeV$. 
+M^{real}_{D^{*\pm}} = 2010.26;  M^{real}_{D^{*0}} = 2006.85 MeV$. 
 Так де на $D*$-мезоны накладываем ограничение:
 
 \begin{equation}
-        \abs{M_{D*} - M^d_{D}} < 15 MeV
+        \abs{M_{D^*} - M^d_{D}} < 15 MeV
 \end{equation}
 
 Где $ M^d_{D}$ --- масса $D$-мезона используемого для кобинации соответствующего. 
-$D^*$. Так как ошибка собранного $D*$ мезона карелирует с собранным 
+$D^*$. Так как ошибка собранного $D^*$ мезона карелирует с собранным 
 предврительно $D$-мезоном.
 
 \newdot Для отбора $\Lambda \to p \pi$ требуем 
@@ -128,3 +128,66 @@ $$
 \ \cos \theta_{\Lambda_c} > 0.99;
 \ \mathfrak{L}_{p/K } > 0.6 
 $$
+
+
+\subsection{Итог сбора данных}
+
+Проведя описанную выше реконструкцию событий на $x$ fb из $y$ fb доступных, были получены 
+следующие распределения событий. Для аппроксимации распределений был использован 
+бинированный алгоритм максимального правдоподобия с предположением о распределении внутри 
+бина по Пуассону и общим распределением:
+
+\begin{equation}
+    F(x, args) = (1-A)\cdot f_{\text{continuum}} + A \cdot f_{\text{signal}}
+\end{equation}
+
+\begin{equation}
+    \begin{split}
+    f_{\text{continuum}}(x; A_1, \lambda, \mu, \sigma_1, c_0, c_1, c_2, c_3, c_4) = & A_1 \cdot f_{\text{exp}}(x - \mu; \lambda) \\
+    & + (1 - A_1) \cdot N(x; 2.65, \sigma_1) \\
+    & + c_0 \cdot \tilde T_0(x - \Lambda_c) \\
+    & + c_1 \cdot \tilde T_1(x - \Lambda_c) \\
+    & + c_2 \cdot \tilde T_2(x - \Lambda_c) \\
+    & + c_3 \cdot \tilde T_3(x - \Lambda_c) \\
+    & + c_4 \cdot \tilde T_4(x - \Lambda_c)
+    \end{split}
+\end{equation}
+    
+
+\begin{equation}
+f_{\text{signal}}(x; A, A_1, \lambda, \mu, \sigma, \sigma_1, c_0, c_1, c_2, c_3, c_4) = \cdot {N}(x; \Lambda_c, \sigma) 
+\end{equation}
+
+Определения функций:
+
+1. $f_{\text{exp}}$ Экспоненциальная функция с нормировкой на отрезке $[a, b]$:
+\begin{equation}
+f_{\text{exp}}(x; \lambda, a, b) = \frac{\lambda e^{\lambda x}}{e^{\lambda b} - e^{\lambda a}}
+\end{equation}
+
+2. $\tilde T_0(x - \Lambda_c)$ Поиномы чебышева Чебышева с нормировкой на отрезке $[a,b]$:
+\begin{equation}
+\tilde T_n(x; a, b) = \frac{T_n(x)}{\text{norm}_n(a, b)}
+\end{equation}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/all_chan_sv.png}
+    \caption{Распрееление количества событий по каналам.}
+\end{figure}
+
+
+
+\subsection{Итог отбора каналов тагирования}
+
+По итогу педложенных критериев отбора на всех данных собранных Belle удалось, затагировать 
+$21828$ и $9860$ событий в каналах $X_c \to D^0 p; D^+ p \pi^-$,  $X_c \to D^{*0} p; D^{*+} p \pi^-$ 
+соответственно.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/tag_sum.png}
+    \caption{Распрееление количества событий по каналам.}
+\end{figure}

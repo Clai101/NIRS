@@ -11,10 +11,12 @@
 \contentsline {subsection}{\numberline {3.2}Система идентификации заряженных адронов}{5}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}ECL (CsI)}{6}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}KLM}{6}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Каналов тагирования}{7}{section.4}%
+\contentsline {section}{\numberline {4}Отбор каналов тагирования}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Тагирование $\Lambda _c$}{7}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Критерии отбора}{7}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Поиск $\Lambda _c$}{9}{section.5}%
-\contentsline {section}{Appendix 1: Метод вычисления формфактора}{10}{customsection.1}%
-\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{12}{customsection.2}%
-\contentsline {section}{\numberline {6}Литература}{13}{section.6}%
+\contentsline {subsection}{\numberline {4.3}Итог сбора данных}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Итог отбора каналов тагирования}{10}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Поиск $\Lambda _c$}{12}{section.5}%
+\contentsline {section}{Appendix 1: Метод вычисления формфактора}{13}{customsection.1}%
+\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{15}{customsection.2}%
+\contentsline {section}{\numberline {6}Литература}{16}{section.6}%
