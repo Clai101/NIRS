@@ -17,6 +17,10 @@
 \contentsline {subsection}{\numberline {4.3}Итог сбора данных}{8}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Итог отбора каналов тагирования}{10}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Поиск $\Lambda _c$}{11}{section.5}%
-\contentsline {section}{Appendix 1: Метод вычисления формфактора}{12}{customsection.1}%
-\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{14}{customsection.2}%
-\contentsline {section}{\numberline {6}Литература}{15}{section.6}%
+\contentsline {subsection}{\numberline {5.1}Критерии отбора}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Результаты отбора}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Анализ Monte Carlo}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Отбор истинных кандидатов в событиях Monte Carlo}{13}{subsection.6.1}%
+\contentsline {section}{Appendix 1: Метод вычисления формфактора}{15}{customsection.1}%
+\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{17}{customsection.2}%
+\contentsline {section}{\numberline {7}Литература}{18}{section.7}%
