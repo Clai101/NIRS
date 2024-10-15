@@ -3526,6 +3526,7 @@
     <bcf:citekey order="14" intorder="1">BelleDetector2002</bcf:citekey>
     <bcf:citekey order="15" intorder="1">Krohn2021</bcf:citekey>
     <bcf:citekey order="16" intorder="1">Richman</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">CLEO2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -1,4 +1,6 @@
 \section{Измерение продольной поляризации $\Lambda_c \to \Lambda \pi$}
+\label{helisity:Lambda}
+\subsection{Теория спирального формализма}
 
 С помощью формализма спиральных амплитуд \textbf{\cite{Richman}} можно описать процесс 
 $\Lambda_c \to \Lambda \pi$ и получить его угловое распределение с 
@@ -16,6 +18,7 @@ $\Lambda_c \to \Lambda \pi$ и получить его угловое распр
 
 \begin{equation}
     A_{\llp{c} \llp{p}} = \sum_{\llp{c}} A_{\llp{c}} D^{1/2\dag}_{\llp{c} \llp{p}}\left(\phi_\lambda, \theta_\Lambda, -\phi_\Lambda \right) D^{1/2\dag}_{\llp{c} \llp{p}} B_{\llp{p}} D^{1/2}_{\llp{c} \llp{p}}\left(\phi_p, \theta_p, -\phi_p \right)
+    \label{helisity:amplitud:Lam}
 \end{equation}
 
 Где $\llp{p}$ --- спиральность протона, 
@@ -48,10 +51,11 @@ $D^{j\dag}_{m' m}$ --- коэфиценты матрици Вигнера.
     1 + \alpha_{\Lambda}\alpha_{\Lambda_c} \cos \theta_p + 
     P\insqr{\cos\inner{\alpha_{\Lambda} + \alpha_{\Lambda_c} \cos{\theta_p}} - 
     \alpha_{\Lambda}\sqrt{1 - \alpha_{\Lambda_c}^2}\cos\inner{\delta + \Delta}\cos\theta_p \cos \theta_\Lambda}
+    \label{spin:Lam:pdf}
 \end{equation}
 
 Где $\Delta = \phi_p - \phi_\Lambda$, 
-$\arg\inner{A_{1/2}A_{-1/2}^\dag}$ --- фаза между спиральными амплитудами,
+$\delta = \arg\inner{A_{1/2}A_{-1/2}^\dag}$ --- фаза между спиральными амплитудами,
 $\alpha_{\Lambda_c}$ и $\alpha_{\Lambda}$ --- параметры ассиметрии:
 
 \begin{equation}
@@ -59,14 +63,56 @@ $\alpha_{\Lambda_c}$ и $\alpha_{\Lambda}$ --- параметры ассимет
     \alpha_{\Lambda_c} = \cfrac{\abs{B_{1/2}}^2 - \abs{B_{-1/2}}^2}{\abs{B_{1/2}}^2 + \abs{B_{-1/2}}^2}
 \end{equation}
 
+\subsection{Измерения продольной поляризации}
+
 Методом максимального правдоподобия выполнена небинированная
 аппроксимация углового распределения в отобранных событиях 
 $\Lambda_c \to \Lambda \pi$. При этом $P_L$ и $\delta$ считались
-неизвестными свободными параметрами, тогда как для параметров асим-
-метрии были взяты средние табличные значения $\aleph_{\Lambda} = 0.732$ и $\aleph_{\Lambda_c} = -0.84$. 
+неизвестными свободными параметрами, тогда как для параметров асимметрии были 
+взяты средние табличные значения 
+$\alpha_{\Lambda} = 0.732$ и $\alpha_{\Lambda_c} = -0.84$. 
 Функция распределения вероятности (PDF) сигнала:
 
+\begin{equation}
+    f_S^{\Lambda \pi} \inner{x, \xi, P_L, \delta} = 
+    \cfrac{\eps_{\Lambda\pi}f_{sig}^{\Lambda\pi}\inner{x, P_l, \delta}}{\int \eps_{\Lambda\pi} \inner{x, \xi} f_{sig}^{\Lambda\pi}}
+\end{equation}
+
+где $\mathbf{x} = \inner{\Delta, \cos \theta_p, \cos \theta_\Lambda }$ --- переменные, 
+от которых зависит $f^{\Lambda\pi}_{sig} $, $\xi = \inner{ \abs{ p^{CM}_{\Lambda_c}}, \cos \theta^{CM}_{\Lambda_c} }$ 
+--- переменные, не входящие явно образом в $ f^{\Lambda\pi}_{sig}$, 
+но влияющие на эффективность реконструкции событий, $ \epsilon_{\Lambda\Lambda} $ 
+--- полная эффективность восстановления, которая была получена следующим образом: 
+для каждого бина двумерной гистограммы эффективности реконструкции (рис. \ref{l_pi:rec}) 
+с сигнальными событиями создавалась трёхмерная гистограмма, разбита на 
+$ 3 \times 2 \times 2 $ бина по переменным $ \mathbf{x} $, 
+в каждом бине которой вычислялось отношение количества восстановленных событий 
+к количеству сгенерированных. Многомерный интеграл в знаменателе 
+$ f^{\Lambda\pi}_{S} $ вычислялся численно.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/l_pi_rec.png}
+    \caption{Эффективность реконструкции распадов $\Lambda_c \to \pi \Lambda$ в зависимости от
+    косинуса полярного угла и величины импульса $\Lambda_c$-бариона в системе центра масс.}
+    \label{l_pi:rec}
+\end{figure}
 
 
+Результат аппроксимации:
+
+\begin{equation}
+    P_L = 0.64\pm 0.16, \delta = 151.18^\circ \pm 41.2^\circ
+\end{equation}
+
+На рис. \ref{l_pi:fit} представлены одномерные гистограммы с отобранными из экспериментальных данных.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{img/l_pi_fit.png}
+    \caption{Одномерные распределения событий $\Lambda_c \to \Lambda \pi$ с наложенной
+    функцией $f_{sig}$ с полученными параметрами}
+    \label{l_pi:fit}
+\end{figure}
 
 

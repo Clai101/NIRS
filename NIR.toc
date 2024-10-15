@@ -22,6 +22,11 @@
 \contentsline {section}{\numberline {6}Анализ Monte Carlo}{13}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Отбор истинных кандидатов в событиях Monte Carlo}{13}{subsection.6.1}%
 \contentsline {section}{\numberline {7}Измерение продольной поляризации $\Lambda _c \to \Lambda \pi $}{15}{section.7}%
-\contentsline {section}{Appendix 1: Метод вычисления формфактора}{16}{customsection.1}%
-\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{18}{customsection.2}%
-\contentsline {section}{\numberline {8}Литература}{19}{section.8}%
+\contentsline {subsection}{\numberline {7.1}Теория спирального формализма}{15}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Измерения продольной поляризации}{15}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Измерение формфактора полулептонных распадов $\Lambda _c$}{17}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Измерения продольной поляризации}{18}{subsection.8.1}%
+\contentsline {section}{Appendix 1: Метод вычисления формфактора}{20}{customsection.1}%
+\contentsline {section}{Appendix 2: Алгоритм фита в массу потеряной частици}{22}{customsection.2}%
+\contentsline {section}{\numberline {9}Литература}{23}{section.9}%
+\contentsline {section}{\numberline {10}Вывод}{24}{section.10}%
