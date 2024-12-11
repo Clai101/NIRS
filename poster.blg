@@ -1,0 +1,4 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'poster.blg'
+[58] biber:340> INFO - === Wed Dec  4, 2024, 16:53:30
+[73] Biber.pm:419> INFO - Reading 'poster.bcf'

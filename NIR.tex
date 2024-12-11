@@ -7,7 +7,7 @@
 \usepackage{amscd} % диаграммы, графики.
 \usepackage{amsthm} % окружения теорем, определений и тд.
 \usepackage{physics} % основные физические символы
-\usepackage{tikz-feynhand} % Ферми диограммы
+\usepackage{tikz-feynhand} % Феймановские диограммы
 %\usepackage{latexsym} % треугольники и пьяная стрелка.
 
 %пакеты для шрифтов:
@@ -144,12 +144,32 @@
     \noindent\textbf{Appendix \arabic{customsection}: #1} % Как выглядит в тексте 
 } % Независимые секции (аппендиксы) 
 
-
+\title{Измерение формфактора полулептонного распада $\Lambda_c$-бариона, на данных Belle.}
+\date{15 Октября 2024}
 
 \numberwithin{equation}{section}
 
 
 \begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}  % Добавление отступа сверху
+
+    {\Huge \textbf{Измерение формфактора полулептонного распада $\Lambda_c$-бариона.}} % Название крупным шрифтом
+
+    \vspace{1.5cm}
+
+    \vfill  % Вертикальное выравнивание по центру
+
+
+    \vspace{1cm}
+
+    15 Октября 2024
+
+    \vspace{2cm}
+
+\end{titlepage}
 
 \newpage
 \tableofcontents
@@ -166,6 +186,8 @@
 \include{dat/belle_subdetectors}
 
 \include{dat/sieve_data}
+
+\include{dat/spectring}
 
 \include{dat/lc_combination}
 
